@@ -1,3 +1,37 @@
+# minima-plus
+
+An experiment in extending Jekyll's base theme.
+
+## Installation
+
+Add this line to your Jekyll site's Gemfile:
+
+```ruby
+gem "minima-plus", :git => "https://github.com/spencermathews/minima-plus.git"
+```
+
+And add this line to your Jekyll site:
+
+```yaml
+theme: minima-plus
+```
+
+And then execute:
+
+    $ bundle
+
+## Using with GitHub Pages
+
+Currently this must be done manually.
+
+Would it be possible to use with GitHub Pages if added as a submodule?
+
+## RubyGems Notes
+
+It does not seem an issue with Gem Themes, but generally it would be good to follow the recommendations in [Name Your Gem](http://guides.rubygems.org/name-your-gem/), which seem to suggest that underscore might be preferred to hyphen.
+
+---
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
