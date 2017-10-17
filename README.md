@@ -4,9 +4,10 @@ An experiment in extending Jekyll's base theme.
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+Add one of these line to your Jekyll site's Gemfile:
 
 ```ruby
+gem "minima-plus", :github => "spencermathews/minima-plus"
 gem "minima-plus", :git => "https://github.com/spencermathews/minima-plus.git"
 ```
 
